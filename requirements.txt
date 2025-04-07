@@ -2,4 +2,4 @@ aiogram>=3.0
 openai-whisper>=1.0
 ffmpeg-python
 python-dotenv
-torch==2.0.0+cpu --index-url https://download.pytorch.org/whl/cpu  # Версия для CPU
+torch>=2.0.0
