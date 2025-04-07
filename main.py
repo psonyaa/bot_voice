@@ -8,7 +8,7 @@ import asyncio
 
 # Конфигурация
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-MODEL_TYPE = "base"  # Можно изменить на "small" если будут проблемы с памятью
+MODEL_TYPE = "small"  # Можно изменить на "small" если будут проблемы с памятью
 
 # Инициализация
 bot = Bot(token=TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.MARKDOWN))
