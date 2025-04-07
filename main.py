@@ -7,7 +7,7 @@ from aiogram.client.default import DefaultBotProperties
 import asyncio
 
 # Конфигурация
-TOKEN = "5540046585:AAG5GnCO7PadTZ6MKuOV6PQHhmcgq3TKStI"
+TOKEN = os.getenv("TELEGRAM_TOKEN")
 MODEL_TYPE = "base"  # Можно изменить на "small" если будут проблемы с памятью
 
 # Инициализация
